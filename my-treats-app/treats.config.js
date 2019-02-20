@@ -6,7 +6,8 @@ const config = {
         slug: "my-treats-app"
     },
     alias: {
-        "@page": path.resolve(__dirname, "./src/page")
+        "@page": path.resolve(__dirname, "./src/page"),
+        "@redux": path.resolve(__dirname, "./src/_redux")
     }
 };
 
